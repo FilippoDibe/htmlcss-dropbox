@@ -1,0 +1,78 @@
+/* foglio di struttura dove mi occupo solo dell'impagninazione grafica della pagina inserendo semplicemnte le dimensioni dei blocchi e la loro posizoe spaziale con un inserimento statico delle immagini senza i dettagli  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: auto;
+    width: 100%;
+    background-color: rgb(165, 205, 239);
+    display: flex;
+    flex-direction: column;
+}
+/* specifiche nav  */
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+.nav-sx{
+    display: flex;
+    margin-left: 20px;
+}
+.nav-dx{
+    display: flex;
+    margin-right: 20px;
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.nav-a-link{
+    padding: 0 20px;
+}
+/* specifiche jumbotron  */
+.jumbo{
+    width: 80%;
+    margin:auto
+}
+.jumbo h1{
+    font-size: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+.jumbo-content{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.jumbo-content-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}    
+.jumbo-content-text a, .jumbo-content-text .arrow-down{
+    padding: 20px;
+}
+.jumbo-content-text p{
+    font-size: 20px;
+    color: grey;
+}
+.jumbo-content-img{
+    display: flex;
+    width: 60%;
+}
+.jumbo-content-img-img{
+    width: 800px;
+    height: 120%;  
+    margin: auto; 
+}
