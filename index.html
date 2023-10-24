@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/structur.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -34,9 +38,14 @@
             <div class="jumbo-content">
                 <div class="jumbo-content-text">
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intellegente e integrato per ottimizzare il flusso di lavoro esistente</p>
-                    <a href="#" class="blue-button">Inizia la tua prova gratuita</a>
+                    <div class="blue-button">
+                        <a href="#">Inizia la tua prova gratuita</a>
+                    </div>
                     <p>annulla in qualsiasi momento </p>
-                    <div class="arrow-down"></div>
+                    <div class="arrow-down">
+                        <a href="#destinazione"><i class="fa-solid fa-arrow-down"></i></a>
+                        
+                    </div>
                 </div>
                 <div class="jumbo-content-img">
                      <img src="img/jumbo.png" alt="" class="jumbo-content-img-img"> 
@@ -45,17 +54,17 @@
         </div>
     </header>
     <main>
-        <section class="business-plane">
+        <section class="business-plane" id="destinazione">
             <h2 class="title-section">Trova il piano business che fa per te</h2>
             <div class="button-plane">
-                <a href="#">Fatturazione mensile</a>
+                <a href="#" class="mensile">Fatturazione mensile</a>
                 <a href="">Fatturazione annuale</a>
             </div>
                 <div class="section-container">
                 <div class="plane-container">
                     <div class="colon-singolo">
                         <div class="plane-name">
-
+                            <i class="fa-solid fa-user"></i>
                             Singolo
                         </div>
                         <div class="colon-singolo-corp">
@@ -64,15 +73,15 @@
                         <span>/mese</span>
                         <div class="servizi">
                             <div class="servizi-tipo">
-
+                                <i class="fa-solid fa-user"></i>
                                 1 utente
                             </div>
                             <div class="servizi-tipo">
-
+                                <i class="fa-solid fa-folder"></i>
                                 5 TB di spazio di archiviazione sicuro
                             </div>
                             <div class="servizi-tipo">
-
+                                <i class="fa-solid fa-share-nodes"></i>
                                 Funzioni di produttività premium e condivisione file semplice e sicura
                             </div>
                         </div>
@@ -84,8 +93,8 @@
                         <div class="punti-salienti">
                                 <h4><strong>Punti Salienti del piano</strong></h4>
                                 <ul>
-                                    <li>Invia file fino a 100 GB non Dropbox Transfert</li>
-                                    <li>Cartelle offline su dispositivi mobili</li>
+                                    <li><span><i class="fa-solid fa-check"></i></span>Invia file fino a 100 GB non Dropbox Transfert</li>
+                                    <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
                                 </ul>
                         </div>
                         </div>
@@ -94,25 +103,25 @@
                 <div class="plane-container">
                     <div class="colon-singolo">
                         <div class="plane-name">
-
-                            Singolo
+                            <i class="fa-solid fa-users"></i>
+                            Team
                         </div>
                         <div class="colon-singolo-corp">
-                            <h3 class="plane-name-h3">Professional</h3>
-                            <div class="price"> <strong>€ 12.00</strong></div>
-                        <span>/mese</span>
+                            <h3 class="plane-name-h3">Advanced</h3>
+                            <div class="price"> <strong>€ 18.00</strong></div>
+                        <span>/utente/mese</span>
                         <div class="servizi">
                             <div class="servizi-tipo">
-
-                                1 utente
+                                <i class="fa-solid fa-users"></i>
+                                3 o più utenti
                             </div>
                             <div class="servizi-tipo">
-
-                                5 TB di spazio di archiviazione sicuro
+                                <i class="fa-solid fa-folder"></i>
+                               Tutto lo spazi necessario di cui ha bisogno il tuo team
                             </div>
                             <div class="servizi-tipo">
-
-                                Funzioni di produttività premium e condivisione file semplice e sicura
+                                <i class="fa-solid fa-share-nodes"></i>
+                                Sofisticate funzioni di controllo e per tenere al sicuro tutti i tuoi file del tuo team 
                             </div>
                         </div>
                         <div class="free-trial-blue-button">
@@ -123,8 +132,11 @@
                         <div class="punti-salienti">
                                 <h4><strong>Punti Salienti del piano</strong></h4>
                                 <ul>
-                                    <li>Invia file fino a 100 GB non Dropbox Transfert</li>
-                                    <li>Cartelle offline su dispositivi mobili</li>
+                                    <li><i class="fa-solid fa-check"></i>Nessun limite di spazio per i file</li>
+                                    <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                                    <li><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                    <li><i class="fa-solid fa-check"></i>Possibilità di inserire nuovi membri nel team</li>
+                                    <li><i class="fa-solid fa-check"></i>Gestione dei Permessi in base ai ruoli</li>
                                 </ul>
                         </div>
                         </div>
@@ -133,37 +145,40 @@
                 <div class="plane-container">
                     <div class="colon-singolo">
                         <div class="plane-name">
-
-                            Singolo
+                            <i class="fa-solid fa-building"></i>
+                            Azienda 
                         </div>
                         <div class="colon-singolo-corp">
-                            <h3 class="plane-name-h3">Professional</h3>
-                            <div class="price"> <strong>€ 12.00</strong></div>
-                        <span>/mese</span>
-                        <div class="servizi">
+                            <h3 class="plane-name-h3">Enterprise</h3>
+                            <div class="price"> <strong>Contattaci</strong></div>
+                        <!-- <span>/mese</span> -->
+                         <div class="servizi"> 
                             <div class="servizi-tipo">
-
-                                1 utente
+                                <i class="fa-solid fa-user"></i>
+                                10 o più utenti
                             </div>
                             <div class="servizi-tipo">
-
-                                5 TB di spazio di archiviazione sicuro
+                                <i class="fa-solid fa-folder"></i>
+                                Soluzioni personalizabili per la tua azienda
                             </div>
                             <div class="servizi-tipo">
-
-                                Funzioni di produttività premium e condivisione file semplice e sicura
+                                <i class="fa-solid fa-share-nodes"></i>
+                               Assitenza personalizzata per aiutare gli amministratori in una gestione su larga scala
                             </div>
                         </div>
                         <div class="free-trial-blue-button">
-                            <a href="#">Prova gratis per 30 giorni</a>
+                            <a href="#">Contattaci</a>
                         </div>
                         <div class="shop-now">oppure <a href="#">acquista ora</a>
                             </div>
                         <div class="punti-salienti">
                                 <h4><strong>Punti Salienti del piano</strong></h4>
                                 <ul>
-                                    <li>Invia file fino a 100 GB non Dropbox Transfert</li>
-                                    <li>Cartelle offline su dispositivi mobili</li>
+                                    <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                                    <li><i class="fa-solid fa-check"></i>Servizio assistenza 24/h</li>
+                                    <li> <i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale </li>
+
+                                  
                                 </ul>
                         </div>
                         </div>
@@ -172,7 +187,7 @@
             </div>
             <div class="row-plane">
                 <div class="row-name">
-
+                    <i class="fa-solid fa-building"></i>
                     Team
                 </div>
                 <div class="row-container">
@@ -209,27 +224,27 @@
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                 </div>
                 <div class="drop-item">
-                    <img src="img/business-feature-switching-tools.png" alt="">
+                    <img src="img/business-feature-send-files-it.png" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                 </div>
                 <div class="drop-item">
-                    <img src="img/business-feature-switching-tools.png" alt="">
+                    <img src="img/business-feature-coordinate-it.png" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                 </div>
                 <div class="drop-item">
-                    <img src="img/business-feature-switching-tools.png" alt="">
+                    <img src="img/business-feature-integrations-it.png" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                 </div>
                 <div class="drop-item">
-                    <img src="img/business-feature-switching-tools.png" alt="">
+                    <img src="img/business-feature-multi-device.png" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                 </div>
                 <div class="drop-item">
-                    <img src="img/business-feature-switching-tools.png" alt="">
+                    <img src="img/business-feature-security.png" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                 </div>
@@ -294,15 +309,15 @@
             <div class="faq-contain">
                 <div class="faq-item">
                    <p> Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advance?</p>
-                    <!-- <span>freccia con spostamento da capire </span> -->
+                     <span><i class="fa-solid fa-angle-down"></i> </span> 
                 </div>
                 <div class="faq-item">
                     <p> Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advance?</p>
-                     <!-- <span>freccia con spostamento da capire </span> -->
+                     <span><i class="fa-solid fa-angle-down"></i> </span> 
                  </div>
                  <div class="faq-item">
                     <p> Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advance?</p>
-                     <!-- <span>freccia con spostamento da capire </span> -->
+                     <span><i class="fa-solid fa-angle-down"></i> </span> 
                  </div>
             </div>
         </section>
@@ -363,6 +378,7 @@
         </section>
         <section class="lingua">
             <div class="lingua-item">
+                <i class="fa-solid fa-earth-americas"></i>
                 <select name="lingua" id="lingua">
                     <option>Italiano</option>
                     <option>Inglese</option>
