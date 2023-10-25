@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/structur.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bonus.css">
+    <link rel="stylesheet" href="css/inizia.css">
+    <title>inizia</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-sx">
+                <div class="logo">
+                    <img src="img/logo-small.png" alt="logo nav">
+                </div>
+                <div class="nav-link">
+                    <a href="#" class="nav-a-link">Perche Dropbox</a>
+                    <a href="#" class="nav-a-link"> Funzioni</a>
+                    <a href="#" class="nav-a-link">Piani e prezzi</a>
+                </div>
+            </div>
+            <div class="nav-dx">
+                <div class="nav-link">
+                    <div class="a-special">
+                        <a href="#" class="nav-a-link">Supporto</a>
+                        <ul class="sottomenu">
+                            <li><a href="">Chat bot</a></li>
+                            <li><a href="">Contattaci</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="nav-a-link">Contatta l'ufficio vendite</a> 
+                    <a href="#" class="nav-a-link">Accedi</a>
+                    <a href="file:///Users/filippodibenedetto/Desktop/esercizi%20boolean/htmlcss-dropbox/inizia.html" class="nav-a-link-blue-button">Inizia</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+       <section class="contain">
+        <div class="info-container">
+            <!-- sezione nome e cognome -->
+            <img src="img/logo-small.png" alt="">
+            <div class="nome-cognome">
+                <input type="text" id="nome" placeholder="Inseirsci il tuo nome">
+                <input type="text" id="cognome" placeholder="Inserisci il tuo cognome">
+            </div>
+            <div class="email">
+                <input type="email" id="email" placeholder="inserisci il tuo indirizzo email" required>
+            </div>
+            <div class="telefono">
+                <input type="tel" id="cellulare" pattern="[0-9]{10}" placeholder="inserisci il numero di telefono ">
+            </div>
+            <div class="address">
+                <input type="text" id="address" placeholder="inserisci il tuo indirizzo di residenza">
+            </div>
+            <div class="sesso">
+                <input type="radio" name="sesso" id="maschio">Uomo
+                <input type="radio" name="sesso" id="donna">Donna
+            </div>
+            <div class="policy">
+                <div>   
+                    <input type="checkbox" name="opzione1" id="opzione1">Vuoi rimanere aggiornato su nuove promozioni
+                </div>
+                <div>  
+                    <input type="checkbox" name="opzione2" id="opzione2">Vuoi iscriverti alla newsletter
+                </div>
+                <div>  
+                    <input type="checkbox" name="opzione3" id="opzione3">accetta termini e condizioni 
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Invia" id="invia">
+            </div>
+        </div>
+       </section>
+    </main>
+    <footer>
+        <section class="list-contain">
+            <div class="list-item">
+                <ul>
+                    <li class="titolo"><strong>Dropbox</strong></li>
+                    <li><a href="">Applicazione desktop</a></li>
+                    <li><a href="">Perchè Dropbox</a></li>
+                    <li><a href="">Piani</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Funzioni</a></li>
+                </ul>
+            </div>
+            <div class="list-item">
+                <ul>
+                    <li class="titolo"><strong>Prodotti</strong></li>
+                    <li><a href="">Applicazione desktop</a></li>
+                    <li><a href="">Perchè Dropbox</a></li>
+                    <li><a href="">Piani</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Funzioni</a></li>
+                </ul>
+            </div>
+            <div class="list-item">
+                <ul>
+                    <li class="titolo"><strong>Azienda</strong></li>
+                    <li><a href="">Aplicazione desktop</a></li>
+                    <li><a href="">Perchè Dropbox</a></li>
+                    <li><a href="">Piani</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Funzioni</a></li>
+                </ul>
+            </div>
+            <div class="list-item">
+                <ul>
+                    <li class="titolo"><strong>Supporto</strong></li>
+                    <li><a href="">Applicazione desktop</a></li>
+                    <li><a href="">Perchè Dropbox</a></li>
+                    <li><a href="">Piani</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Funzioni</a></li>
+                </ul>
+            </div>
+            <div class="list-item">
+                <ul>
+                    <li class="titolo"><strong>Community</strong></li>
+                    <li><a href="">Applicazione desktop</a></li>
+                    <li><a href="">Perchè Dropbox</a></li>
+                    <li><a href="">Piani</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Funzioni</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="lingua">
+            <div class="lingua-item">
+                <i class="fa-solid fa-earth-americas"></i>
+                <select name="lingua" id="lingua">
+                    <option>Italiano</option>
+                    <option>Inglese</option>
+                    <option>Francese</option>
+                    <option>Tedesco</option>
+                </select>
+            </div>
+        </section>
+    </footer>
+    
+</body>
+</html>

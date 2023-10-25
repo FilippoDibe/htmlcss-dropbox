@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    padding-top:100px;
+}
+.contain{
+    background-color: gainsboro;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    margin-top:50px;
+}
+.info-container{
+    width: 50%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    padding-top:20px;
+}
+.info-container img{
+    padding-bottom:50px;
+    margin:auto
+}
+.nome-cognome{
+    display: flex;
+    justify-content: space-between;
+}
+#nome, #cognome, #email, #cellulare, #address{
+    padding: 5px;
+    text-decoration: none;
+    border: transparent;
+}
+.email, .telefono, .address{
+   padding-top: 20px;
+}
+#email, #cellulare, #address{
+    width: 100%;
+}
+.sesso{
+    padding: 20px 0;
+}
+.policy div{
+    padding: 10px 0;
+}
+.submit{
+    display: flex;
+    justify-content: end;
+}
+#invia{
+    text-decoration: none;
+    padding:5px;
+}
