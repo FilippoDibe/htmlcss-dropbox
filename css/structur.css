@@ -375,6 +375,8 @@ nav{
 .faq-contain{
     display: flex;
     flex-direction: column;
+    margin-bottom:100px;
+    border-bottom: 1px solid;
 
 }
 .faq-item{
@@ -383,6 +385,7 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
 .faq-item span{
     padding-right: 30px;
 }
