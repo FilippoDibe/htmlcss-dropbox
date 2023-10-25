@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+ /* bonus e miglioramenti nav  */
+ .a-special{
+    display: flex;
+ }
+ .a-special .sottomenu {
+    margin-top: 20px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    padding: 10px;
+    z-index: 1; 
+ }
+  
+  .a-special:hover .sottomenu {
+    display: block;
+  }
+  
+.sottomenu a{
+    text-decoration: none;
+    color: black;
+}
+.sottomenu li:hover{
+    background-color: gainsboro;
+    text-decoration: underline;
+}
+
+/* sezione faq */
+.risposta{
+    padding: 20px 0;
+    color: gray;
+    display: none;
+    width: 80%;
+}
+.faq-item:hover + .risposta{
+    display: block;
+}
+.faq-item i.fa-angle-up {
+    display: none;
+  }
+  
+  .faq-item:hover i.fa-angle-up {
+    display: inline;
+  }
+  
+  .faq-item:hover i.fa-angle-down {
+    display: none;
+  }
+  

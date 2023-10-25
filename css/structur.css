@@ -15,7 +15,7 @@ header{
 }
 /* specifiche nav  */
 nav{
-    height: 10vh;
+    height: 10vh; 
     width: 100%;
     background-color: white;
     display: flex;
@@ -23,6 +23,7 @@ nav{
     align-items: center;
     z-index: 100;
     position: fixed;
+    border-bottom: 1px solid;
 }
 .nav-sx{
     display: flex;
